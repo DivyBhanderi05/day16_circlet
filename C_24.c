@@ -7,10 +7,10 @@ main(){
 		for(k=i ; k>1 ; k--){
 			printf(" ");
 		}
-		for(j=i ; j<5 ; j++){
+		for(j=5 ; j>i ; j--){
 			printf("%d",j);
 		}
-		for(j=5 ; j>=1 ; j--){
+		for(j=i ; j<=5 ; j++){
 			printf("%d",j);
 			
 		}
